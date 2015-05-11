@@ -1,0 +1,274 @@
+DIGEST 793d28be943f573ebf2258b0a8a6536d
+FProofObjects
+R77:85 MoreLogic <> <> lib
+R2863:2867 Prop <> b_sum constr
+prf 3361:3378 <> eight_is_beautiful
+R3381:3389 Prop <> beautiful ind
+R3411:3415 Prop <> b_sum constr
+R3411:3415 Prop <> b_sum constr
+R3452:3454 Prop <> b_3 constr
+R3452:3454 Prop <> b_3 constr
+R3467:3469 Prop <> b_5 constr
+R3467:3469 Prop <> b_5 constr
+R3847:3851 Prop <> b_sum constr
+R3861:3863 Prop <> b_5 constr
+R3857:3859 Prop <> b_3 constr
+prf 4846:4864 <> eight_is_beautiful'
+R4867:4875 Prop <> beautiful ind
+R4897:4901 Prop <> b_sum constr
+R4911:4913 Prop <> b_5 constr
+R4907:4909 Prop <> b_3 constr
+R4897:4901 Prop <> b_sum constr
+R4911:4913 Prop <> b_5 constr
+R4907:4909 Prop <> b_3 constr
+prf 5859:5878 <> eight_is_beautiful''
+R5881:5889 Prop <> beautiful ind
+R5925:5929 Prop <> b_sum constr
+R5925:5929 Prop <> b_sum constr
+R5975:5977 Prop <> b_3 constr
+R5975:5977 Prop <> b_3 constr
+R6004:6006 Prop <> b_5 constr
+R6004:6006 Prop <> b_5 constr
+def 6752:6772 <> eight_is_beautiful'''
+R6776:6784 Prop <> beautiful ind
+R6793:6797 Prop <> b_sum constr
+R6807:6809 Prop <> b_5 constr
+R6803:6805 Prop <> b_3 constr
+prf 7461:7476 <> six_is_beautiful
+R7482:7490 Prop <> beautiful ind
+def 7545:7561 <> six_is_beautiful'
+R7565:7573 Prop <> beautiful ind
+R7601:7605 Basics <> admit prfax
+prf 7757:7773 <> nine_is_beautiful
+R7779:7787 Prop <> beautiful ind
+def 7842:7859 <> nine_is_beautiful'
+R7863:7871 Prop <> beautiful ind
+R7899:7903 Basics <> admit prfax
+prf 8516:8522 <> b_plus3
+R8550:8558 Prop <> beautiful ind
+R8562:8562 Basics <> :nat_scope:x_'+'_x not
+R8563:8563 ProofObjects <> n var
+R8535:8543 Prop <> beautiful ind
+R8545:8545 ProofObjects <> n var
+R8598:8602 Prop <> b_sum constr
+R8598:8602 Prop <> b_sum constr
+R8614:8616 Prop <> b_3 constr
+R8614:8616 Prop <> b_3 constr
+def 8951:8958 <> b_plus3'
+R8987:8995 Prop <> beautiful ind
+R8999:8999 Basics <> :nat_scope:x_'+'_x not
+R9000:9000 ProofObjects <> n var
+R8972:8980 Prop <> beautiful ind
+R8982:8982 ProofObjects <> n var
+R9018:9020 Coq.Init.Datatypes <> nat ind
+R9035:9043 Prop <> beautiful ind
+R9045:9045 ProofObjects <> n var
+R9055:9059 Prop <> b_sum constr
+R9069:9069 ProofObjects <> H var
+R9065:9067 Prop <> b_3 constr
+R9063:9063 ProofObjects <> n var
+R9079:9086 ProofObjects <> b_plus3' def
+def 9316:9324 <> b_plus3''
+R9331:9333 Coq.Init.Datatypes <> nat ind
+R9341:9349 Prop <> beautiful ind
+R9351:9351 ProofObjects <> n var
+R9356:9364 Prop <> beautiful ind
+R9368:9368 Basics <> :nat_scope:x_'+'_x not
+R9369:9369 ProofObjects <> n var
+R9378:9382 Prop <> b_sum constr
+R9392:9392 ProofObjects <> H var
+R9388:9390 Prop <> b_3 constr
+R9386:9386 ProofObjects <> n var
+R9402:9410 ProofObjects <> b_plus3'' def
+def 10290:10304 <> beautiful_plus3
+R10341:10349 Prop <> beautiful ind
+R10351:10351 ProofObjects <> n var
+R10355:10363 Prop <> beautiful ind
+R10367:10367 Basics <> :nat_scope:x_'+'_x not
+R10366:10366 ProofObjects <> n var
+def 10799:10814 <> beautiful_plus3'
+R10851:10859 Prop <> beautiful ind
+R10861:10861 ProofObjects <> n var
+R10865:10873 Prop <> beautiful ind
+R10877:10877 Basics <> :nat_scope:x_'+'_x not
+R10876:10876 ProofObjects <> n var
+def 10963:10978 <> beatiful_plus3''
+R11017:11025 Prop <> beautiful ind
+R11029:11029 Basics <> :nat_scope:x_'+'_x not
+R11028:11028 ProofObjects <> n var
+R11002:11010 Prop <> beautiful ind
+R11012:11012 ProofObjects <> n var
+def 11253:11261 <> b_times2'
+R11289:11297 Prop <> beautiful ind
+R11301:11301 Basics <> :nat_scope:x_'*'_x not
+R11302:11302 ProofObjects <> n var
+R11274:11282 Prop <> beautiful ind
+R11284:11284 ProofObjects <> n var
+R11329:11333 Basics <> admit prfax
+def 11510:11527 <> gorgeous_plus13_po
+R11554:11561 Prop <> gorgeous ind
+R11566:11566 Basics <> :nat_scope:x_'+'_x not
+R11567:11567 ProofObjects <> n var
+R11540:11547 Prop <> gorgeous ind
+R11549:11549 ProofObjects <> n var
+R11594:11598 Basics <> admit prfax
+prf 11776:11786 <> and_example
+R11793:11793 Logic <> :type_scope:x_'/\'_x not
+R11805:11810 Logic <> :type_scope:x_'/\'_x not
+R11822:11822 Logic <> :type_scope:x_'/\'_x not
+R11794:11802 Prop <> beautiful ind
+R11811:11819 Prop <> beautiful ind
+R11840:11843 Logic <> conj constr
+R11840:11843 Logic <> conj constr
+R11875:11877 Prop <> b_0 constr
+R11875:11877 Prop <> b_0 constr
+R11910:11912 Prop <> b_3 constr
+R11910:11912 Prop <> b_3 constr
+prf 12592:12601 <> and_commut
+R12638:12641 Logic <> :type_scope:x_'/\'_x not
+R12637:12637 ProofObjects <> Q var
+R12642:12642 ProofObjects <> P var
+R12628:12631 Logic <> :type_scope:x_'/\'_x not
+R12627:12627 ProofObjects <> P var
+R12632:12632 ProofObjects <> Q var
+def 13850:13858 <> conj_fact
+R13897:13900 Logic <> :type_scope:x_'/\'_x not
+R13896:13896 ProofObjects <> P var
+R13901:13901 ProofObjects <> R var
+R13887:13890 Logic <> :type_scope:x_'/\'_x not
+R13886:13886 ProofObjects <> Q var
+R13891:13891 ProofObjects <> R var
+R13877:13880 Logic <> :type_scope:x_'/\'_x not
+R13876:13876 ProofObjects <> P var
+R13881:13881 ProofObjects <> Q var
+R13927:13931 Basics <> admit prfax
+def 14418:14439 <> beautiful_iff_gorgeous
+R14466:14470 Logic <> :type_scope:x_'<->'_x not
+R14455:14463 Prop <> beautiful ind
+R14465:14465 ProofObjects <> n var
+R14471:14478 Prop <> gorgeous ind
+R14480:14480 ProofObjects <> n var
+R14506:14510 Basics <> admit prfax
+R15018:15019 MoreLogic <> ex ind
+def 15034:15049 <> some_nat_is_even
+R15064:15065 MoreLogic <> ex ind
+R15069:15070 Prop <> ev ind
+def 15239:15242 <> snie
+R15246:15261 ProofObjects <> some_nat_is_even def
+R15269:15276 MoreLogic <> ex_intro constr
+R15286:15290 Prop <> ev_SS constr
+R15295:15299 Prop <> ev_SS constr
+R15303:15306 Prop <> ev_0 constr
+R15280:15281 Prop <> ev ind
+def 15446:15446 <> p
+R15450:15451 MoreLogic <> ex ind
+R15465:15473 Prop <> beautiful ind
+R15476:15476 Coq.Init.Datatypes <> S constr
+R15478:15478 ProofObjects <> n var
+R15504:15508 Basics <> admit prfax
+R16011:16019 Induction <> plus_comm prfax
+prf 16093:16103 <> plus_comm_r
+R16132:16134 Coq.Init.Logic <> :type_scope:x_'='_x not
+R16122:16125 Basics <> :nat_scope:x_'+'_x not
+R16131:16131 Basics <> :nat_scope:x_'+'_x not
+R16121:16121 ProofObjects <> c var
+R16127:16129 Basics <> :nat_scope:x_'+'_x not
+R16126:16126 ProofObjects <> b var
+R16130:16130 ProofObjects <> a var
+R16136:16139 Basics <> :nat_scope:x_'+'_x not
+R16145:16145 Basics <> :nat_scope:x_'+'_x not
+R16135:16135 ProofObjects <> c var
+R16141:16143 Basics <> :nat_scope:x_'+'_x not
+R16140:16140 ProofObjects <> a var
+R16144:16144 ProofObjects <> b var
+R16279:16287 Induction <> plus_comm prfax
+R16279:16287 Induction <> plus_comm prfax
+prf 16436:16447 <> plus_comm_r'
+R16476:16478 Coq.Init.Logic <> :type_scope:x_'='_x not
+R16466:16469 Basics <> :nat_scope:x_'+'_x not
+R16475:16475 Basics <> :nat_scope:x_'+'_x not
+R16465:16465 ProofObjects <> c var
+R16471:16473 Basics <> :nat_scope:x_'+'_x not
+R16470:16470 ProofObjects <> b var
+R16474:16474 ProofObjects <> a var
+R16480:16483 Basics <> :nat_scope:x_'+'_x not
+R16489:16489 Basics <> :nat_scope:x_'+'_x not
+R16479:16479 ProofObjects <> c var
+R16485:16487 Basics <> :nat_scope:x_'+'_x not
+R16484:16484 ProofObjects <> a var
+R16488:16488 ProofObjects <> b var
+R16528:16536 Induction <> plus_comm prfax
+R16528:16536 Induction <> plus_comm prfax
+prf 16683:16695 <> plus_comm_r''
+R16724:16726 Coq.Init.Logic <> :type_scope:x_'='_x not
+R16714:16717 Basics <> :nat_scope:x_'+'_x not
+R16723:16723 Basics <> :nat_scope:x_'+'_x not
+R16713:16713 ProofObjects <> c var
+R16719:16721 Basics <> :nat_scope:x_'+'_x not
+R16718:16718 ProofObjects <> b var
+R16722:16722 ProofObjects <> a var
+R16728:16731 Basics <> :nat_scope:x_'+'_x not
+R16737:16737 Basics <> :nat_scope:x_'+'_x not
+R16727:16727 ProofObjects <> c var
+R16733:16735 Basics <> :nat_scope:x_'+'_x not
+R16732:16732 ProofObjects <> a var
+R16736:16736 ProofObjects <> b var
+R16774:16782 Induction <> plus_comm prfax
+R16774:16782 Induction <> plus_comm prfax
+prf 17082:17095 <> plus_comm_r'''
+R17124:17126 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17114:17117 Basics <> :nat_scope:x_'+'_x not
+R17123:17123 Basics <> :nat_scope:x_'+'_x not
+R17113:17113 ProofObjects <> c var
+R17119:17121 Basics <> :nat_scope:x_'+'_x not
+R17118:17118 ProofObjects <> b var
+R17122:17122 ProofObjects <> a var
+R17128:17131 Basics <> :nat_scope:x_'+'_x not
+R17137:17137 Basics <> :nat_scope:x_'+'_x not
+R17127:17127 ProofObjects <> c var
+R17133:17135 Basics <> :nat_scope:x_'+'_x not
+R17132:17132 ProofObjects <> a var
+R17136:17136 ProofObjects <> b var
+R17173:17181 Induction <> plus_comm prfax
+R17173:17181 Induction <> plus_comm prfax
+def 17414:17430 <> trans_eq_example'
+R17456:17458 Coq.Init.Datatypes <> nat ind
+R17516:17518 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17511:17511 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17513:17513 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17515:17515 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17514:17514 ProofObjects <> b var
+R17512:17512 ProofObjects <> a var
+R17519:17519 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17521:17521 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17523:17523 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17522:17522 ProofObjects <> f var
+R17520:17520 ProofObjects <> e var
+R17494:17496 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17489:17489 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17491:17491 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17493:17493 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17492:17492 ProofObjects <> d var
+R17490:17490 ProofObjects <> c var
+R17497:17497 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17499:17499 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17501:17501 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17500:17500 ProofObjects <> f var
+R17498:17498 ProofObjects <> e var
+R17472:17474 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17467:17467 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17469:17469 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17471:17471 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17470:17470 ProofObjects <> b var
+R17468:17468 ProofObjects <> a var
+R17475:17475 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17477:17477 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17479:17479 Poly <> ::'['_x_';'_'..'_';'_x_']' not
+R17478:17478 ProofObjects <> d var
+R17476:17476 ProofObjects <> c var
+def 17869:17872 <> add1
+R17883:17885 Coq.Init.Datatypes <> nat ind
+R17876:17878 Coq.Init.Datatypes <> nat ind
+R17917:17917 Coq.Init.Datatypes <> S constr
+R17917:17917 Coq.Init.Datatypes <> S constr
+R18044:18047 ProofObjects <> add1 def

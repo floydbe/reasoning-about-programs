@@ -1,0 +1,877 @@
+DIGEST bf7f32b67c9e8fa1c13b5e8024c34702
+FRecords
+R57:60 Stlc <> <> lib
+mod 2158:2176 <> STLCExtendedRecords
+mod 2397:2404 <> STLCExtendedRecords.FirstTry
+def 2419:2423 STLCExtendedRecords.FirstTry alist
+R2439:2442 Coq.Init.Datatypes <> list ind
+R2447:2449 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R2445:2446 SfLib <> id ind
+R2450:2450 Records <> X var
+ind 2467:2468 STLCExtendedRecords.FirstTry ty
+constr 2484:2488 STLCExtendedRecords.FirstTry TBase
+constr 2509:2514 STLCExtendedRecords.FirstTry TArrow
+constr 2540:2543 STLCExtendedRecords.FirstTry TRcd
+R2502:2503 Records <> ty ind
+R2496:2497 SfLib <> id ind
+R2533:2534 Records <> ty ind
+R2527:2528 Records <> ty ind
+R2521:2522 Records <> ty ind
+R2566:2567 Records <> ty ind
+R2553:2557 Records STLCExtendedRecords.FirstTry alist def
+R2559:2560 Records <> ty ind
+R3167:3174 Records FirstTry <> mod
+ind 3700:3701 STLCExtendedRecords ty
+constr 3717:3721 STLCExtendedRecords TBase
+constr 3738:3743 STLCExtendedRecords TArrow
+constr 3766:3770 STLCExtendedRecords TRNil
+constr 3781:3786 STLCExtendedRecords TRCons
+R3731:3732 Records <> ty ind
+R3725:3726 SfLib <> id ind
+R3759:3760 Records <> ty ind
+R3753:3754 Records <> ty ind
+R3747:3748 Records <> ty ind
+R3774:3775 Records <> ty ind
+R3808:3809 Records <> ty ind
+R3802:3803 Records <> ty ind
+R3796:3797 Records <> ty ind
+R3790:3791 SfLib <> id ind
+ind 4154:4155 STLCExtendedRecords tm
+constr 4171:4174 STLCExtendedRecords tvar
+constr 4191:4194 STLCExtendedRecords tapp
+constr 4217:4220 STLCExtendedRecords tabs
+constr 4265:4269 STLCExtendedRecords tproj
+constr 4292:4296 STLCExtendedRecords trnil
+constr 4308:4313 STLCExtendedRecords trcons
+R4184:4185 Records <> tm ind
+R4178:4179 SfLib <> id ind
+R4210:4211 Records <> tm ind
+R4204:4205 Records <> tm ind
+R4198:4199 Records <> tm ind
+R4242:4243 Records <> tm ind
+R4236:4237 Records <> tm ind
+R4230:4231 Records STLCExtendedRecords ty ind
+R4224:4225 SfLib <> id ind
+R4285:4286 Records <> tm ind
+R4279:4280 SfLib <> id ind
+R4273:4274 Records <> tm ind
+R4301:4302 Records <> tm ind
+R4335:4336 Records <> tm ind
+R4329:4330 Records <> tm ind
+R4323:4324 Records <> tm ind
+R4317:4318 SfLib <> id ind
+syndef 4582:4582 STLCExtendedRecords a
+R4588:4589 SfLib <> Id constr
+syndef 4604:4604 STLCExtendedRecords f
+R4610:4611 SfLib <> Id constr
+syndef 4626:4626 STLCExtendedRecords g
+R4632:4633 SfLib <> Id constr
+syndef 4648:4648 STLCExtendedRecords l
+R4654:4655 SfLib <> Id constr
+syndef 4670:4670 STLCExtendedRecords A
+R4676:4680 Records STLCExtendedRecords TBase constr
+R4683:4684 SfLib <> Id constr
+syndef 4700:4700 STLCExtendedRecords B
+R4706:4710 Records STLCExtendedRecords TBase constr
+R4713:4714 SfLib <> Id constr
+syndef 4730:4730 STLCExtendedRecords k
+R4736:4737 SfLib <> Id constr
+syndef 4752:4753 STLCExtendedRecords i1
+R4759:4760 SfLib <> Id constr
+syndef 4775:4776 STLCExtendedRecords i2
+R4782:4783 SfLib <> Id constr
+def 5223:5232 STLCExtendedRecords weird_type
+R5237:5242 Records STLCExtendedRecords TRCons constr
+R5248:5248 Records STLCExtendedRecords B syndef
+R5246:5246 Records STLCExtendedRecords A syndef
+R5244:5244 Imp <> X def
+ind 5733:5741 STLCExtendedRecords record_ty
+constr 5763:5767 STLCExtendedRecords RTnil
+constr 5800:5805 STLCExtendedRecords RTcons
+R5745:5746 Records STLCExtendedRecords ty ind
+R5780:5788 Records <> record_ty ind
+R5790:5794 Records STLCExtendedRecords TRNil constr
+R5833:5841 Records <> record_ty ind
+R5844:5849 Records STLCExtendedRecords TRCons constr
+R5856:5857 Records <> T2 var
+R5853:5854 Records <> T1 var
+R5851:5851 Records <> i var
+ind 5960:5968 STLCExtendedRecords record_tm
+constr 5990:5994 STLCExtendedRecords rtnil
+constr 6026:6031 STLCExtendedRecords rtcons
+R5972:5973 Records STLCExtendedRecords tm ind
+R6006:6014 Records <> record_tm ind
+R6016:6020 Records STLCExtendedRecords trnil constr
+R6059:6067 Records <> record_tm ind
+R6070:6075 Records STLCExtendedRecords trcons constr
+R6082:6083 Records <> t2 var
+R6079:6080 Records <> t1 var
+R6077:6077 Records <> i var
+ind 6755:6768 STLCExtendedRecords well_formed_ty
+constr 6790:6796 STLCExtendedRecords wfTBase
+constr 6847:6854 STLCExtendedRecords wfTArrow
+constr 6972:6978 STLCExtendedRecords wfTRNil
+constr 7015:7022 STLCExtendedRecords wfTRCons
+R6772:6773 Records STLCExtendedRecords ty ind
+R6818:6831 Records <> well_formed_ty ind
+R6834:6838 Records STLCExtendedRecords TBase constr
+R6840:6840 Records <> i var
+R6938:6951 Records <> well_formed_ty ind
+R6954:6959 Records STLCExtendedRecords TArrow constr
+R6964:6965 Records <> T2 var
+R6961:6962 Records <> T1 var
+R6909:6922 Records <> well_formed_ty ind
+R6924:6925 Records <> T2 var
+R6880:6893 Records <> well_formed_ty ind
+R6895:6896 Records <> T1 var
+R6990:7003 Records <> well_formed_ty ind
+R7005:7009 Records STLCExtendedRecords TRNil constr
+R7132:7145 Records <> well_formed_ty ind
+R7148:7153 Records STLCExtendedRecords TRCons constr
+R7160:7161 Records <> T2 var
+R7157:7158 Records <> T1 var
+R7155:7155 Records <> i var
+R7108:7116 Records STLCExtendedRecords record_ty ind
+R7118:7119 Records <> T2 var
+R7079:7092 Records <> well_formed_ty ind
+R7094:7095 Records <> T2 var
+R7050:7063 Records <> well_formed_ty ind
+R7065:7066 Records <> T1 var
+R7184:7192 Records <> record_ty ind
+R7194:7202 Records <> record_tm ind
+R7204:7217 Records <> well_formed_ty ind
+def 7332:7336 STLCExtendedRecords subst
+R7341:7342 SfLib <> id ind
+R7348:7349 Records STLCExtendedRecords tm ind
+R7355:7356 Records STLCExtendedRecords tm ind
+R7361:7362 Records STLCExtendedRecords tm ind
+R7375:7375 Records <> t var
+R7386:7389 Records STLCExtendedRecords tvar constr
+R7399:7407 SfLib <> eq_id_dec thm
+R7409:7409 Records <> x var
+R7425:7425 Records <> t var
+R7418:7418 Records <> s var
+R7431:7434 Records STLCExtendedRecords tabs constr
+R7447:7450 Records STLCExtendedRecords tabs constr
+R7460:7468 SfLib <> eq_id_dec thm
+R7470:7470 Records <> x var
+R7488:7492 Records <> subst def
+R7496:7496 Records <> s var
+R7494:7494 Records <> x var
+R7507:7510 Records STLCExtendedRecords tapp constr
+R7521:7524 Records STLCExtendedRecords tapp constr
+R7542:7546 Records <> subst def
+R7550:7550 Records <> s var
+R7548:7548 Records <> x var
+R7527:7531 Records <> subst def
+R7535:7535 Records <> s var
+R7533:7533 Records <> x var
+R7560:7564 Records STLCExtendedRecords tproj constr
+R7574:7578 Records STLCExtendedRecords tproj constr
+R7581:7585 Records <> subst def
+R7589:7589 Records <> s var
+R7587:7587 Records <> x var
+R7601:7605 Records STLCExtendedRecords trnil constr
+R7610:7614 Records STLCExtendedRecords trnil constr
+R7620:7625 Records STLCExtendedRecords trcons constr
+R7639:7644 Records STLCExtendedRecords trcons constr
+R7664:7668 Records <> subst def
+R7672:7672 Records <> s var
+R7670:7670 Records <> x var
+R7649:7653 Records <> subst def
+R7657:7657 Records <> s var
+R7655:7655 Records <> x var
+R7721:7725 Records STLCExtendedRecords subst def
+not 7696 STLCExtendedRecords ::'['_x_':='_x_']'_x
+ind 7961:7965 STLCExtendedRecords value
+constr 7987:7991 STLCExtendedRecords v_abs
+constr 8046:8051 STLCExtendedRecords v_rnil
+constr 8071:8077 STLCExtendedRecords v_rcons
+R7969:7970 Records STLCExtendedRecords tm ind
+R8019:8023 Records <> value ind
+R8026:8029 Records STLCExtendedRecords tabs constr
+R8037:8039 Records <> t12 var
+R8033:8035 Records <> T11 var
+R8031:8031 Records <> x var
+R8055:8059 Records <> value ind
+R8061:8065 Records STLCExtendedRecords trnil constr
+R8139:8143 Records <> value ind
+R8146:8151 Records STLCExtendedRecords trcons constr
+R8158:8159 Records <> vr var
+R8155:8156 Records <> v1 var
+R8153:8153 Records <> i var
+R8121:8125 Records <> value ind
+R8127:8128 Records <> vr var
+R8103:8107 Records <> value ind
+R8109:8110 Records <> v1 var
+R8182:8186 Records <> value ind
+def 8280:8286 STLCExtendedRecords Tlookup
+R8291:8292 SfLib <> id ind
+R8299:8300 Records STLCExtendedRecords ty ind
+R8305:8310 Coq.Init.Datatypes <> option ind
+R8312:8313 Records STLCExtendedRecords ty ind
+R8326:8327 Records <> Tr var
+R8338:8343 Records STLCExtendedRecords TRCons constr
+R8360:8368 SfLib <> eq_id_dec thm
+R8370:8370 Records <> i var
+R8392:8398 Records <> Tlookup def
+R8400:8400 Records <> i var
+R8380:8383 Coq.Init.Datatypes <> Some constr
+R8415:8418 Coq.Init.Datatypes <> None constr
+def 8437:8443 STLCExtendedRecords tlookup
+R8448:8449 SfLib <> id ind
+R8456:8457 Records STLCExtendedRecords tm ind
+R8462:8467 Coq.Init.Datatypes <> option ind
+R8469:8470 Records STLCExtendedRecords tm ind
+R8483:8484 Records <> tr var
+R8495:8500 Records STLCExtendedRecords trcons constr
+R8517:8525 SfLib <> eq_id_dec thm
+R8527:8527 Records <> i var
+R8549:8555 Records <> tlookup def
+R8557:8557 Records <> i var
+R8537:8540 Coq.Init.Datatypes <> Some constr
+R8572:8575 Coq.Init.Datatypes <> None constr
+ind 8796:8799 STLCExtendedRecords step
+constr 8827:8835 STLCExtendedRecords ST_AppAbs
+constr 8938:8944 STLCExtendedRecords ST_App1
+constr 9033:9039 STLCExtendedRecords ST_App2
+constr 9149:9156 STLCExtendedRecords ST_Proj1
+constr 9242:9251 STLCExtendedRecords ST_ProjRcd
+constr 9357:9367 STLCExtendedRecords ST_Rcd_Head
+constr 9467:9477 STLCExtendedRecords ST_Rcd_Tail
+R8809:8810 Records STLCExtendedRecords tm ind
+R8803:8804 Records STLCExtendedRecords tm ind
+R9621:9624 Records <> step ind
+R8890:8890 Records STLCExtendedRecords ::x_'==>'_x not
+R8915:8921 Records STLCExtendedRecords ::x_'==>'_x not
+R8932:8932 Records STLCExtendedRecords ::x_'==>'_x not
+R8891:8894 Records STLCExtendedRecords tapp constr
+R8913:8914 Records <> v2 var
+R8897:8900 Records STLCExtendedRecords tabs constr
+R8908:8910 Records <> t12 var
+R8904:8906 Records <> T11 var
+R8902:8902 Records <> x var
+R8922:8922 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R8924:8925 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R8928:8928 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R8923:8923 Records <> x var
+R8926:8927 Records <> v2 var
+R8929:8931 Records <> t12 var
+R8869:8873 Records STLCExtendedRecords value ind
+R8875:8876 Records <> v2 var
+R8998:8998 Records STLCExtendedRecords ::x_'==>'_x not
+R9009:9015 Records STLCExtendedRecords ::x_'==>'_x not
+R9027:9027 Records STLCExtendedRecords ::x_'==>'_x not
+R8999:9002 Records STLCExtendedRecords tapp constr
+R9007:9008 Records <> t2 var
+R9004:9005 Records <> t1 var
+R9016:9019 Records STLCExtendedRecords tapp constr
+R9025:9026 Records <> t2 var
+R9021:9023 Records <> t1' var
+R8977:8981 Records STLCExtendedRecords ::x_'==>'_x not
+R8975:8976 Records <> t1 var
+R8982:8984 Records <> t1' var
+R9114:9114 Records STLCExtendedRecords ::x_'==>'_x not
+R9125:9131 Records STLCExtendedRecords ::x_'==>'_x not
+R9143:9143 Records STLCExtendedRecords ::x_'==>'_x not
+R9115:9118 Records STLCExtendedRecords tapp constr
+R9123:9124 Records <> t2 var
+R9120:9121 Records <> v1 var
+R9132:9135 Records STLCExtendedRecords tapp constr
+R9140:9142 Records <> t2' var
+R9137:9138 Records <> v1 var
+R9093:9097 Records STLCExtendedRecords ::x_'==>'_x not
+R9091:9092 Records <> t2 var
+R9098:9100 Records <> t2' var
+R9070:9074 Records STLCExtendedRecords value ind
+R9076:9077 Records <> v1 var
+R9207:9207 Records STLCExtendedRecords ::x_'==>'_x not
+R9218:9224 Records STLCExtendedRecords ::x_'==>'_x not
+R9236:9236 Records STLCExtendedRecords ::x_'==>'_x not
+R9208:9212 Records STLCExtendedRecords tproj constr
+R9217:9217 Records <> i var
+R9214:9215 Records <> t1 var
+R9225:9229 Records STLCExtendedRecords tproj constr
+R9235:9235 Records <> i var
+R9231:9233 Records <> t1' var
+R9187:9191 Records STLCExtendedRecords ::x_'==>'_x not
+R9185:9186 Records <> t1 var
+R9192:9194 Records <> t1' var
+R9333:9333 Records STLCExtendedRecords ::x_'==>'_x not
+R9344:9349 Records STLCExtendedRecords ::x_'==>'_x not
+R9334:9338 Records STLCExtendedRecords tproj constr
+R9343:9343 Records <> i var
+R9340:9341 Records <> tr var
+R9350:9351 Records <> vi var
+R9311:9313 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9299:9305 Records STLCExtendedRecords tlookup def
+R9309:9310 Records <> tr var
+R9307:9307 Records <> i var
+R9314:9317 Coq.Init.Datatypes <> Some constr
+R9319:9320 Records <> vi var
+R9279:9283 Records STLCExtendedRecords value ind
+R9285:9286 Records <> tr var
+R9422:9422 Records STLCExtendedRecords ::x_'==>'_x not
+R9438:9444 Records STLCExtendedRecords ::x_'==>'_x not
+R9461:9461 Records STLCExtendedRecords ::x_'==>'_x not
+R9423:9428 Records STLCExtendedRecords trcons constr
+R9435:9437 Records <> tr2 var
+R9432:9433 Records <> t1 var
+R9430:9430 Records <> i var
+R9445:9450 Records STLCExtendedRecords trcons constr
+R9458:9460 Records <> tr2 var
+R9454:9456 Records <> t1' var
+R9452:9452 Records <> i var
+R9402:9406 Records STLCExtendedRecords ::x_'==>'_x not
+R9400:9401 Records <> t1 var
+R9407:9409 Records <> t1' var
+R9555:9555 Records STLCExtendedRecords ::x_'==>'_x not
+R9571:9577 Records STLCExtendedRecords ::x_'==>'_x not
+R9594:9594 Records STLCExtendedRecords ::x_'==>'_x not
+R9556:9561 Records STLCExtendedRecords trcons constr
+R9568:9570 Records <> tr2 var
+R9565:9566 Records <> v1 var
+R9563:9563 Records <> i var
+R9578:9583 Records STLCExtendedRecords trcons constr
+R9590:9593 Records <> tr2' var
+R9587:9588 Records <> v1 var
+R9585:9585 Records <> i var
+R9534:9538 Records STLCExtendedRecords ::x_'==>'_x not
+R9531:9533 Records <> tr2 var
+R9539:9542 Records <> tr2' var
+R9511:9515 Records STLCExtendedRecords value ind
+R9517:9518 Records <> v1 var
+R9621:9624 Records STLCExtendedRecords step ind
+not 9603 STLCExtendedRecords ::x_'==>'_x
+syndef 9893:9901 STLCExtendedRecords multistep
+R9907:9911 Smallstep <> multi ind
+R9913:9916 Records STLCExtendedRecords step ind
+R9948:9956 Records STLCExtendedRecords multistep syndef
+not 9929 STLCExtendedRecords ::x_'==>*'_x
+R9999:10002 Records <> step ind
+def 10113:10119 STLCExtendedRecords context
+R10124:10134 SfLib <> partial_map def
+R10136:10137 Records STLCExtendedRecords ty ind
+ind 11470:11477 STLCExtendedRecords has_type
+constr 11516:11520 STLCExtendedRecords T_Var
+constr 11628:11632 STLCExtendedRecords T_Abs
+constr 11795:11799 STLCExtendedRecords T_App
+constr 11955:11960 STLCExtendedRecords T_Proj
+constr 12085:12090 STLCExtendedRecords T_RNil
+constr 12143:12149 STLCExtendedRecords T_RCons
+R11498:11499 Records STLCExtendedRecords ty ind
+R11492:11493 Records STLCExtendedRecords tm ind
+R11481:11487 Records STLCExtendedRecords context def
+R12362:12369 Records <> has_type ind
+R11605:11609 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11616:11621 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11600:11604 Records <> Gamma var
+R11610:11613 Records STLCExtendedRecords tvar constr
+R11615:11615 Records <> x var
+R11622:11622 Records <> T var
+R11574:11587 Records STLCExtendedRecords well_formed_ty ind
+R11589:11589 Records <> T var
+R11555:11557 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11548:11552 Records <> Gamma var
+R11554:11554 Records <> x var
+R11558:11561 Coq.Init.Datatypes <> Some constr
+R11563:11563 Records <> T var
+R11749:11753 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11768:11774 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11789:11789 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11744:11748 Records <> Gamma var
+R11754:11757 Records STLCExtendedRecords tabs constr
+R11765:11767 Records <> t12 var
+R11761:11763 Records <> T11 var
+R11759:11759 Records <> x var
+R11775:11780 Records STLCExtendedRecords TArrow constr
+R11786:11788 Records <> T12 var
+R11782:11784 Records <> T11 var
+R11698:11698 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11717:11721 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11725:11729 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11699:11704 SfLib <> extend def
+R11714:11716 Records <> T11 var
+R11712:11712 Records <> x var
+R11706:11710 Records <> Gamma var
+R11722:11724 Records <> t12 var
+R11730:11732 Records <> T12 var
+R11670:11683 Records STLCExtendedRecords well_formed_ty ind
+R11685:11687 Records <> T11 var
+R11910:11914 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11925:11930 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11905:11909 Records <> Gamma var
+R11915:11918 Records STLCExtendedRecords tapp constr
+R11923:11924 Records <> t2 var
+R11920:11921 Records <> t1 var
+R11931:11932 Records <> T2 var
+R11881:11884 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11887:11891 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11876:11880 Records <> Gamma var
+R11885:11886 Records <> t2 var
+R11892:11893 Records <> T1 var
+R11840:11843 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11846:11851 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11864:11864 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11835:11839 Records <> Gamma var
+R11844:11845 Records <> t1 var
+R11852:11857 Records STLCExtendedRecords TArrow constr
+R11862:11863 Records <> T2 var
+R11859:11860 Records <> T1 var
+R12058:12062 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12072:12077 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12053:12057 Records <> Gamma var
+R12063:12067 Records STLCExtendedRecords tproj constr
+R12071:12071 Records <> i var
+R12069:12069 Records <> t var
+R12078:12079 Records <> Ti var
+R12033:12035 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12021:12027 Records STLCExtendedRecords Tlookup def
+R12031:12032 Records <> Tr var
+R12029:12029 Records <> i var
+R12036:12039 Coq.Init.Datatypes <> Some constr
+R12041:12042 Records <> Ti var
+R11999:12002 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12004:12008 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R11994:11998 Records <> Gamma var
+R12003:12003 Records <> t var
+R12009:12010 Records <> Tr var
+R12119:12122 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12128:12132 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12114:12118 Records <> Gamma var
+R12123:12127 Records STLCExtendedRecords trnil constr
+R12133:12137 Records STLCExtendedRecords TRNil constr
+R12288:12292 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12306:12312 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12326:12326 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12283:12287 Records <> Gamma var
+R12293:12298 Records STLCExtendedRecords trcons constr
+R12304:12305 Records <> tr var
+R12302:12302 Records <> t var
+R12300:12300 Records <> i var
+R12313:12318 Records STLCExtendedRecords TRCons constr
+R12324:12325 Records <> Tr var
+R12322:12322 Records <> T var
+R12320:12320 Records <> i var
+R12261:12269 Records STLCExtendedRecords record_tm ind
+R12271:12272 Records <> tr var
+R12239:12247 Records STLCExtendedRecords record_ty ind
+R12249:12250 Records <> Tr var
+R12216:12219 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12222:12226 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12211:12215 Records <> Gamma var
+R12220:12221 Records <> tr var
+R12227:12228 Records <> Tr var
+R12190:12193 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12195:12199 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R12185:12189 Records <> Gamma var
+R12194:12194 Records <> t var
+R12200:12200 Records <> T var
+R12362:12369 Records STLCExtendedRecords has_type ind
+not 12335 STLCExtendedRecords ::x_'|-'_x_'\in'_x
+R12402:12409 Records <> has_type ind
+prf 13099:13114 STLCExtendedRecords typing_example_2
+R13126:13135 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R13392:13402 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R13413:13413 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R13121:13125 SfLib <> empty def
+R13136:13139 Records STLCExtendedRecords tapp constr
+R13298:13303 Records STLCExtendedRecords trcons constr
+R13342:13347 Records STLCExtendedRecords trcons constr
+R13385:13389 Records STLCExtendedRecords trnil constr
+R13353:13356 Records STLCExtendedRecords tabs constr
+R13363:13366 Records STLCExtendedRecords tvar constr
+R13368:13368 Records STLCExtendedRecords a syndef
+R13360:13360 Records STLCExtendedRecords B syndef
+R13358:13358 Records STLCExtendedRecords a syndef
+R13349:13350 Records STLCExtendedRecords i2 syndef
+R13309:13312 Records STLCExtendedRecords tabs constr
+R13319:13322 Records STLCExtendedRecords tvar constr
+R13324:13324 Records STLCExtendedRecords a syndef
+R13316:13316 Records STLCExtendedRecords A syndef
+R13314:13314 Records STLCExtendedRecords a syndef
+R13305:13306 Records STLCExtendedRecords i1 syndef
+R13142:13145 Records STLCExtendedRecords tabs constr
+R13265:13269 Records STLCExtendedRecords tproj constr
+R13280:13281 Records STLCExtendedRecords i2 syndef
+R13272:13275 Records STLCExtendedRecords tvar constr
+R13277:13277 Records STLCExtendedRecords a syndef
+R13150:13155 Records STLCExtendedRecords TRCons constr
+R13196:13201 Records STLCExtendedRecords TRCons constr
+R13242:13246 Records STLCExtendedRecords TRNil constr
+R13207:13212 Records STLCExtendedRecords TArrow constr
+R13216:13216 Records STLCExtendedRecords B syndef
+R13214:13214 Records STLCExtendedRecords B syndef
+R13203:13204 Records STLCExtendedRecords i2 syndef
+R13161:13166 Records STLCExtendedRecords TArrow constr
+R13170:13170 Records STLCExtendedRecords A syndef
+R13168:13168 Records STLCExtendedRecords A syndef
+R13157:13158 Records STLCExtendedRecords i1 syndef
+R13147:13147 Records STLCExtendedRecords a syndef
+R13403:13408 Records STLCExtendedRecords TArrow constr
+R13412:13412 Records STLCExtendedRecords B syndef
+R13410:13410 Records STLCExtendedRecords B syndef
+def 13576:13592 STLCExtendedRecords typing_nonexample
+R13599:13600 Coq.Init.Logic <> :type_scope:'~'_x not
+R13601:13607 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R13609:13616 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R13617:13617 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R13696:13716 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R13755:13775 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R13618:13623 SfLib <> extend def
+R13634:13639 Records STLCExtendedRecords TRCons constr
+R13690:13694 Records STLCExtendedRecords TRNil constr
+R13645:13650 Records STLCExtendedRecords TArrow constr
+R13654:13654 Records STLCExtendedRecords A syndef
+R13652:13652 Records STLCExtendedRecords A syndef
+R13641:13642 Records STLCExtendedRecords i2 syndef
+R13631:13631 Records STLCExtendedRecords a syndef
+R13625:13629 SfLib <> empty def
+R13717:13722 Records STLCExtendedRecords trcons constr
+R13748:13751 Records STLCExtendedRecords tvar constr
+R13753:13753 Records STLCExtendedRecords a syndef
+R13728:13731 Records STLCExtendedRecords tabs constr
+R13738:13741 Records STLCExtendedRecords tvar constr
+R13743:13743 Records STLCExtendedRecords a syndef
+R13735:13735 Records STLCExtendedRecords B syndef
+R13733:13733 Records STLCExtendedRecords a syndef
+R13724:13725 Records STLCExtendedRecords i1 syndef
+R13776:13776 Records <> T var
+def 13826:13844 STLCExtendedRecords typing_nonexample_2
+R13860:13861 Coq.Init.Logic <> :type_scope:'~'_x not
+R13862:13868 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R13870:13875 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R13876:13876 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R13893:13909 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R14051:14067 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R13877:13882 SfLib <> extend def
+R13892:13892 Records STLCExtendedRecords A syndef
+R13890:13890 Records <> y var
+R13884:13888 SfLib <> empty def
+R13910:13913 Records STLCExtendedRecords tapp constr
+R14005:14010 Records STLCExtendedRecords trcons constr
+R14025:14030 Records STLCExtendedRecords trcons constr
+R14044:14048 Records STLCExtendedRecords trnil constr
+R14036:14039 Records STLCExtendedRecords tvar constr
+R14041:14041 Records <> y var
+R14032:14033 Records STLCExtendedRecords i2 syndef
+R14016:14019 Records STLCExtendedRecords tvar constr
+R14021:14021 Records <> y var
+R14012:14013 Records STLCExtendedRecords i1 syndef
+R13916:13919 Records STLCExtendedRecords tabs constr
+R13965:13969 Records STLCExtendedRecords tproj constr
+R13980:13981 Records STLCExtendedRecords i1 syndef
+R13972:13975 Records STLCExtendedRecords tvar constr
+R13977:13977 Records STLCExtendedRecords a syndef
+R13924:13929 Records STLCExtendedRecords TRCons constr
+R13936:13940 Records STLCExtendedRecords TRNil constr
+R13934:13934 Records STLCExtendedRecords A syndef
+R13931:13932 Records STLCExtendedRecords i1 syndef
+R13921:13921 Records STLCExtendedRecords a syndef
+R14068:14068 Records <> T var
+prf 14533:14545 STLCExtendedRecords wf_rcd_lookup
+R14615:14628 Records STLCExtendedRecords well_formed_ty ind
+R14630:14631 Records <> Ti var
+R14599:14601 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14588:14594 Records STLCExtendedRecords Tlookup def
+R14598:14598 Records <> T var
+R14596:14596 Records <> i var
+R14602:14605 Coq.Init.Datatypes <> Some constr
+R14607:14608 Records <> Ti var
+R14566:14579 Records STLCExtendedRecords well_formed_ty ind
+R14581:14581 Records <> T var
+R14776:14782 Records STLCExtendedRecords Tlookup def
+R14805:14813 SfLib <> eq_id_dec thm
+R14805:14813 SfLib <> eq_id_dec thm
+prf 14864:14887 STLCExtendedRecords step_preserves_record_tm
+R14942:14950 Records STLCExtendedRecords record_tm ind
+R14952:14954 Records <> tr' var
+R14928:14932 Records STLCExtendedRecords ::x_'==>'_x not
+R14926:14927 Records <> tr var
+R14933:14935 Records <> tr' var
+R14908:14916 Records STLCExtendedRecords record_tm ind
+R14918:14919 Records <> tr var
+prf 15055:15066 STLCExtendedRecords has_type__wf
+R15110:15123 Records STLCExtendedRecords well_formed_ty ind
+R15125:15125 Records <> T var
+R15095:15098 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R15100:15104 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R15090:15094 Records <> Gamma var
+R15099:15099 Records <> t var
+R15105:15105 Records <> T var
+R15283:15295 Records STLCExtendedRecords wf_rcd_lookup thm
+R15283:15295 Records STLCExtendedRecords wf_rcd_lookup thm
+prf 16434:16454 STLCExtendedRecords lookup_field_in_value
+R16539:16545 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R16548:16549 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R16571:16574 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R16561:16563 Coq.Init.Logic <> :type_scope:x_'='_x not
+R16550:16556 Records STLCExtendedRecords tlookup def
+R16560:16560 Records <> v var
+R16558:16558 Records <> i var
+R16564:16567 Coq.Init.Datatypes <> Some constr
+R16569:16570 Records <> ti var
+R16580:16583 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R16586:16590 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R16575:16579 SfLib <> empty def
+R16584:16585 Records <> ti var
+R16591:16592 Records <> Ti var
+R16523:16525 Coq.Init.Logic <> :type_scope:x_'='_x not
+R16512:16518 Records STLCExtendedRecords Tlookup def
+R16522:16522 Records <> T var
+R16520:16520 Records <> i var
+R16526:16529 Coq.Init.Datatypes <> Some constr
+R16531:16532 Records <> Ti var
+R16495:16498 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R16500:16504 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R16490:16494 SfLib <> empty def
+R16499:16499 Records <> v var
+R16505:16505 Records <> T var
+R16477:16481 Records STLCExtendedRecords value ind
+R16483:16483 Records <> v var
+R16660:16664 SfLib <> empty def
+R16666:16667 Records STLCExtendedRecords ty ind
+R16660:16664 SfLib <> empty def
+R16666:16667 Records STLCExtendedRecords ty ind
+R16807:16815 SfLib <> eq_id_dec thm
+R16807:16815 SfLib <> eq_id_dec thm
+prf 17108:17115 STLCExtendedRecords progress
+R17169:17172 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R17162:17166 Records STLCExtendedRecords value ind
+R17168:17168 Records <> t var
+R17173:17179 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R17182:17183 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R17185:17189 Records STLCExtendedRecords ::x_'==>'_x not
+R17184:17184 Records <> t var
+R17190:17191 Records <> t' var
+R17142:17145 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R17147:17151 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R17137:17141 SfLib <> empty def
+R17146:17146 Records <> t var
+R17152:17152 Records <> T var
+R17413:17417 SfLib <> empty def
+R17419:17420 Records STLCExtendedRecords ty ind
+R17413:17417 SfLib <> empty def
+R17419:17420 Records STLCExtendedRecords ty ind
+R18595:18595 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R18597:18598 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R18601:18601 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R18595:18595 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R18597:18598 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R18601:18601 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R18779:18782 Records STLCExtendedRecords tapp constr
+R18779:18782 Records STLCExtendedRecords tapp constr
+R18933:18936 Records STLCExtendedRecords tapp constr
+R18933:18936 Records STLCExtendedRecords tapp constr
+R19426:19446 Records STLCExtendedRecords lookup_field_in_value thm
+R19426:19446 Records STLCExtendedRecords lookup_field_in_value thm
+R19668:19672 Records STLCExtendedRecords tproj constr
+R19668:19672 Records STLCExtendedRecords tproj constr
+R20496:20501 Records STLCExtendedRecords trcons constr
+R20496:20501 Records STLCExtendedRecords trcons constr
+R20703:20708 Records STLCExtendedRecords trcons constr
+R20703:20708 Records STLCExtendedRecords trcons constr
+ind 20847:20861 STLCExtendedRecords appears_free_in
+constr 20889:20895 STLCExtendedRecords afi_var
+constr 20946:20953 STLCExtendedRecords afi_app1
+constr 21038:21045 STLCExtendedRecords afi_app2
+constr 21130:21136 STLCExtendedRecords afi_abs
+constr 21259:21266 STLCExtendedRecords afi_proj
+constr 21351:21359 STLCExtendedRecords afi_rhead
+constr 21456:21464 STLCExtendedRecords afi_rtail
+R20871:20872 Records STLCExtendedRecords tm ind
+R20865:20866 SfLib <> id ind
+R20915:20929 Records <> appears_free_in ind
+R20934:20937 Records STLCExtendedRecords tvar constr
+R20939:20939 Records <> x var
+R20931:20931 Records <> x var
+R21003:21017 Records <> appears_free_in ind
+R21022:21025 Records STLCExtendedRecords tapp constr
+R21030:21031 Records <> t2 var
+R21027:21028 Records <> t1 var
+R21019:21019 Records <> x var
+R20979:20993 Records <> appears_free_in ind
+R20997:20998 Records <> t1 var
+R20995:20995 Records <> x var
+R21095:21109 Records <> appears_free_in ind
+R21114:21117 Records STLCExtendedRecords tapp constr
+R21122:21123 Records <> t2 var
+R21119:21120 Records <> t1 var
+R21111:21111 Records <> x var
+R21071:21085 Records <> appears_free_in ind
+R21089:21090 Records <> t2 var
+R21087:21087 Records <> x var
+R21220:21234 Records <> appears_free_in ind
+R21239:21242 Records STLCExtendedRecords tabs constr
+R21250:21252 Records <> t12 var
+R21246:21248 Records <> T11 var
+R21244:21244 Records <> y var
+R21236:21236 Records <> x var
+R21187:21201 Records <> appears_free_in ind
+R21205:21207 Records <> t12 var
+R21203:21203 Records <> x var
+R21169:21172 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R21168:21168 Records <> y var
+R21173:21173 Records <> x var
+R21317:21331 Records <> appears_free_in ind
+R21336:21340 Records STLCExtendedRecords tproj constr
+R21344:21344 Records <> i var
+R21342:21342 Records <> t var
+R21333:21333 Records <> x var
+R21289:21303 Records <> appears_free_in ind
+R21307:21307 Records <> t var
+R21305:21305 Records <> x var
+R21417:21431 Records <> appears_free_in ind
+R21436:21441 Records STLCExtendedRecords trcons constr
+R21448:21449 Records <> tr var
+R21445:21446 Records <> ti var
+R21443:21443 Records <> i var
+R21433:21433 Records <> x var
+R21387:21401 Records <> appears_free_in ind
+R21405:21406 Records <> ti var
+R21403:21403 Records <> x var
+R21522:21536 Records <> appears_free_in ind
+R21541:21546 Records STLCExtendedRecords trcons constr
+R21553:21554 Records <> tr var
+R21550:21551 Records <> ti var
+R21548:21548 Records <> i var
+R21538:21538 Records <> x var
+R21492:21506 Records <> appears_free_in ind
+R21510:21511 Records <> tr var
+R21508:21508 Records <> x var
+R21577:21591 Records <> appears_free_in ind
+prf 21601:21618 STLCExtendedRecords context_invariance
+R21747:21750 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R21752:21756 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R21741:21746 Records <> Gamma' var
+R21751:21751 Records <> t var
+R21757:21757 Records <> S var
+R21719:21721 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21712:21716 Records <> Gamma var
+R21718:21718 Records <> x var
+R21722:21727 Records <> Gamma' var
+R21729:21729 Records <> x var
+R21689:21703 Records STLCExtendedRecords appears_free_in ind
+R21707:21707 Records <> t var
+R21705:21705 Records <> x var
+R21657:21660 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R21662:21666 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R21652:21656 Records <> Gamma var
+R21661:21661 Records <> t var
+R21667:21667 Records <> S var
+R21907:21911 Records STLCExtendedRecords T_Var constr
+R21907:21911 Records STLCExtendedRecords T_Var constr
+R21961:21965 Records STLCExtendedRecords T_Abs constr
+R21961:21965 Records STLCExtendedRecords T_Abs constr
+R22014:22019 SfLib <> extend def
+R22032:22040 SfLib <> eq_id_dec thm
+R22032:22040 SfLib <> eq_id_dec thm
+R22076:22080 Records STLCExtendedRecords T_App constr
+R22076:22080 Records STLCExtendedRecords T_App constr
+R22121:22127 Records STLCExtendedRecords T_RCons constr
+R22121:22127 Records STLCExtendedRecords T_RCons constr
+prf 22145:22159 STLCExtendedRecords free_in_context
+R22235:22241 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R22244:22245 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R22253:22255 Coq.Init.Logic <> :type_scope:x_'='_x not
+R22246:22250 Records <> Gamma var
+R22252:22252 Records <> x var
+R22256:22259 Coq.Init.Datatypes <> Some constr
+R22261:22262 Records <> T' var
+R22217:22220 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R22222:22226 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R22212:22216 Records <> Gamma var
+R22221:22221 Records <> t var
+R22227:22227 Records <> T var
+R22186:22200 Records STLCExtendedRecords appears_free_in ind
+R22204:22204 Records <> t var
+R22202:22202 Records <> x var
+R22454:22459 SfLib <> extend def
+R22483:22488 SfLib <> neq_id prfax
+R22483:22488 SfLib <> neq_id prfax
+prf 22616:22644 STLCExtendedRecords substitution_preserves_typing
+R22748:22752 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R22760:22765 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R22743:22747 Records <> Gamma var
+R22753:22753 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R22755:22756 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R22758:22758 Records STLCExtendedRecords ::'['_x_':='_x_']'_x not
+R22754:22754 Records <> x var
+R22757:22757 Records <> v var
+R22759:22759 Records <> t var
+R22766:22766 Records <> S var
+R22721:22724 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R22726:22730 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R22716:22720 SfLib <> empty def
+R22725:22725 Records <> v var
+R22731:22731 Records <> U var
+R22677:22677 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R22694:22698 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R22700:22704 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R22678:22683 SfLib <> extend def
+R22693:22693 Records <> U var
+R22691:22691 Records <> x var
+R22685:22689 Records <> Gamma var
+R22699:22699 Records <> t var
+R22705:22705 Records <> S var
+R23758:23766 SfLib <> eq_id_dec thm
+R23758:23766 SfLib <> eq_id_dec thm
+R24082:24087 SfLib <> extend def
+R24104:24108 SfLib <> eq_id thm
+R24104:24108 SfLib <> eq_id thm
+R24168:24185 Records STLCExtendedRecords context_invariance thm
+R24168:24185 Records STLCExtendedRecords context_invariance thm
+R24230:24244 Records STLCExtendedRecords free_in_context thm
+R24252:24256 SfLib <> empty def
+R24230:24244 Records STLCExtendedRecords free_in_context thm
+R24252:24256 SfLib <> empty def
+R24470:24474 Records STLCExtendedRecords T_Var constr
+R24470:24474 Records STLCExtendedRecords T_Var constr
+R24486:24491 SfLib <> extend def
+R24508:24513 SfLib <> neq_id prfax
+R24508:24513 SfLib <> neq_id prfax
+R25223:25227 Records STLCExtendedRecords T_Abs constr
+R25223:25227 Records STLCExtendedRecords T_Abs constr
+R25246:25254 SfLib <> eq_id_dec thm
+R25246:25254 SfLib <> eq_id_dec thm
+R25524:25541 Records STLCExtendedRecords context_invariance thm
+R25524:25541 Records STLCExtendedRecords context_invariance thm
+R25587:25592 SfLib <> extend def
+R25611:25619 SfLib <> eq_id_dec thm
+R25611:25619 SfLib <> eq_id_dec thm
+R25888:25905 Records STLCExtendedRecords context_invariance thm
+R25888:25905 Records STLCExtendedRecords context_invariance thm
+R25938:25943 SfLib <> extend def
+R25962:25970 SfLib <> eq_id_dec thm
+R25962:25970 SfLib <> eq_id_dec thm
+R26002:26007 SfLib <> neq_id prfax
+R26002:26007 SfLib <> neq_id prfax
+R26039:26045 Records STLCExtendedRecords T_RCons constr
+R26039:26045 Records STLCExtendedRecords T_RCons constr
+prf 26094:26105 STLCExtendedRecords preservation
+R26178:26181 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R26184:26188 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R26173:26177 SfLib <> empty def
+R26182:26183 Records <> t' var
+R26189:26189 Records <> T var
+R26156:26160 Records STLCExtendedRecords ::x_'==>'_x not
+R26155:26155 Records <> t var
+R26161:26162 Records <> t' var
+R26134:26137 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R26139:26143 Records STLCExtendedRecords ::x_'|-'_x_'\in'_x not
+R26129:26133 SfLib <> empty def
+R26138:26138 Records <> t var
+R26144:26144 Records <> T var
+R26320:26324 SfLib <> empty def
+R26326:26327 Records STLCExtendedRecords ty ind
+R26320:26324 SfLib <> empty def
+R26326:26327 Records STLCExtendedRecords ty ind
+R27461:27489 Records STLCExtendedRecords substitution_preserves_typing thm
+R27461:27489 Records STLCExtendedRecords substitution_preserves_typing thm
+R28077:28097 Records STLCExtendedRecords lookup_field_in_value thm
+R28077:28097 Records STLCExtendedRecords lookup_field_in_value thm
+R28571:28577 Records STLCExtendedRecords T_RCons constr
+R28571:28577 Records STLCExtendedRecords T_RCons constr
+R28589:28612 Records STLCExtendedRecords step_preserves_record_tm thm
+R28589:28612 Records STLCExtendedRecords step_preserves_record_tm thm
+R28637:28655 Records <> <> mod

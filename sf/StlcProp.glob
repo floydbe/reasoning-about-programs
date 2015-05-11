@@ -1,0 +1,369 @@
+DIGEST 8f499e49513c7de452aa4f490b26edda
+FStlcProp
+R54:57 Stlc <> <> lib
+mod 68:75 <> STLCProp
+prf 347:366 STLCProp canonical_forms_bool
+R421:421 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R431:436 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R447:447 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R423:425 Coq.Init.Logic <> :type_scope:x_'='_x not
+R422:422 StlcProp <> t var
+R426:430 Stlc STLC ttrue constr
+R438:440 Coq.Init.Logic <> :type_scope:x_'='_x not
+R437:437 StlcProp <> t var
+R441:446 Stlc STLC tfalse constr
+R408:412 Stlc STLC value ind
+R414:414 StlcProp <> t var
+R387:390 Stlc STLC ::x_'|-'_x_'\in'_x not
+R392:396 Stlc STLC ::x_'|-'_x_'\in'_x not
+R382:386 SfLib <> empty def
+R391:391 StlcProp <> t var
+R397:401 Stlc STLC TBool constr
+prf 546:564 STLCProp canonical_forms_fun
+R634:640 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R644:645 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R647:649 Coq.Init.Logic <> :type_scope:x_'='_x not
+R646:646 StlcProp <> t var
+R650:653 Stlc STLC tabs constr
+R660:660 StlcProp <> u var
+R657:658 StlcProp <> T1 var
+R655:655 StlcProp <> x var
+R621:625 Stlc STLC value ind
+R627:627 StlcProp <> t var
+R591:594 Stlc STLC ::x_'|-'_x_'\in'_x not
+R596:601 Stlc STLC ::x_'|-'_x_'\in'_x not
+R614:614 Stlc STLC ::x_'|-'_x_'\in'_x not
+R586:590 SfLib <> empty def
+R595:595 StlcProp <> t var
+R602:607 Stlc STLC TArrow constr
+R612:613 StlcProp <> T2 var
+R609:610 StlcProp <> T1 var
+prf 1195:1202 STLCProp progress
+R1256:1259 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1249:1253 Stlc STLC value ind
+R1255:1255 StlcProp <> t var
+R1260:1266 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1269:1270 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1272:1276 Stlc STLC ::x_'==>'_x not
+R1271:1271 StlcProp <> t var
+R1277:1278 StlcProp <> t' var
+R1229:1232 Stlc STLC ::x_'|-'_x_'\in'_x not
+R1234:1238 Stlc STLC ::x_'|-'_x_'\in'_x not
+R1224:1228 SfLib <> empty def
+R1233:1233 StlcProp <> t var
+R1239:1239 StlcProp <> T var
+R2999:3003 SfLib <> empty def
+R3005:3006 Stlc STLC ty ind
+R2999:3003 SfLib <> empty def
+R3005:3006 Stlc STLC ty ind
+R3424:3430 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3436:3437 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3440:3442 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3443:3446 Stlc STLC tabs constr
+R3455:3456 StlcProp <> t0 var
+R3448:3449 StlcProp <> x0 var
+R3424:3430 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3436:3437 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3440:3442 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3443:3446 Stlc STLC tabs constr
+R3455:3456 StlcProp <> t0 var
+R3448:3449 StlcProp <> x0 var
+R3475:3493 StlcProp STLCProp canonical_forms_fun thm
+R3475:3493 StlcProp STLCProp canonical_forms_fun thm
+R3564:3564 Stlc STLC ::'['_x_':='_x_']'_x not
+R3567:3568 Stlc STLC ::'['_x_':='_x_']'_x not
+R3571:3571 Stlc STLC ::'['_x_':='_x_']'_x not
+R3564:3564 Stlc STLC ::'['_x_':='_x_']'_x not
+R3567:3568 Stlc STLC ::'['_x_':='_x_']'_x not
+R3571:3571 Stlc STLC ::'['_x_':='_x_']'_x not
+R3649:3652 Stlc STLC tapp constr
+R3649:3652 Stlc STLC tapp constr
+R3729:3732 Stlc STLC tapp constr
+R3729:3732 Stlc STLC tapp constr
+R3838:3857 StlcProp STLCProp canonical_forms_bool thm
+R3838:3857 StlcProp STLCProp canonical_forms_bool thm
+R3947:3949 Stlc STLC tif constr
+R3947:3949 Stlc STLC tif constr
+prf 4161:4169 STLCProp progress'
+R4222:4225 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R4215:4219 Stlc STLC value ind
+R4221:4221 StlcProp <> t var
+R4226:4232 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4235:4236 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4238:4242 Stlc STLC ::x_'==>'_x not
+R4237:4237 StlcProp <> t var
+R4243:4244 StlcProp <> t' var
+R4195:4198 Stlc STLC ::x_'|-'_x_'\in'_x not
+R4200:4204 Stlc STLC ::x_'|-'_x_'\in'_x not
+R4190:4194 SfLib <> empty def
+R4199:4199 StlcProp <> t var
+R4205:4205 StlcProp <> T var
+ind 6856:6870 STLCProp appears_free_in
+constr 6898:6904 STLCProp afi_var
+constr 6955:6962 STLCProp afi_app1
+constr 7047:7054 STLCProp afi_app2
+constr 7139:7145 STLCProp afi_abs
+constr 7262:7268 STLCProp afi_if1
+constr 7364:7370 STLCProp afi_if2
+constr 7466:7472 STLCProp afi_if3
+R6880:6881 Stlc STLC tm ind
+R6874:6875 SfLib <> id ind
+R6924:6938 StlcProp <> appears_free_in ind
+R6943:6946 Stlc STLC tvar constr
+R6948:6948 StlcProp <> x var
+R6940:6940 StlcProp <> x var
+R7012:7026 StlcProp <> appears_free_in ind
+R7031:7034 Stlc STLC tapp constr
+R7039:7040 StlcProp <> t2 var
+R7036:7037 StlcProp <> t1 var
+R7028:7028 StlcProp <> x var
+R6988:7002 StlcProp <> appears_free_in ind
+R7006:7007 StlcProp <> t1 var
+R7004:7004 StlcProp <> x var
+R7104:7118 StlcProp <> appears_free_in ind
+R7123:7126 Stlc STLC tapp constr
+R7131:7132 StlcProp <> t2 var
+R7128:7129 StlcProp <> t1 var
+R7120:7120 StlcProp <> x var
+R7080:7094 StlcProp <> appears_free_in ind
+R7098:7099 StlcProp <> t2 var
+R7096:7096 StlcProp <> x var
+R7223:7237 StlcProp <> appears_free_in ind
+R7242:7245 Stlc STLC tabs constr
+R7253:7255 StlcProp <> t12 var
+R7249:7251 StlcProp <> T11 var
+R7247:7247 StlcProp <> y var
+R7239:7239 StlcProp <> x var
+R7192:7206 StlcProp <> appears_free_in ind
+R7210:7212 StlcProp <> t12 var
+R7208:7208 StlcProp <> x var
+R7176:7179 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R7175:7175 StlcProp <> y var
+R7180:7180 StlcProp <> x var
+R7327:7341 StlcProp <> appears_free_in ind
+R7346:7348 Stlc STLC tif constr
+R7356:7357 StlcProp <> t3 var
+R7353:7354 StlcProp <> t2 var
+R7350:7351 StlcProp <> t1 var
+R7343:7343 StlcProp <> x var
+R7297:7311 StlcProp <> appears_free_in ind
+R7315:7316 StlcProp <> t1 var
+R7313:7313 StlcProp <> x var
+R7429:7443 StlcProp <> appears_free_in ind
+R7448:7450 Stlc STLC tif constr
+R7458:7459 StlcProp <> t3 var
+R7455:7456 StlcProp <> t2 var
+R7452:7453 StlcProp <> t1 var
+R7445:7445 StlcProp <> x var
+R7399:7413 StlcProp <> appears_free_in ind
+R7417:7418 StlcProp <> t2 var
+R7415:7415 StlcProp <> x var
+R7531:7545 StlcProp <> appears_free_in ind
+R7550:7552 Stlc STLC tif constr
+R7560:7561 StlcProp <> t3 var
+R7557:7558 StlcProp <> t2 var
+R7554:7555 StlcProp <> t1 var
+R7547:7547 StlcProp <> x var
+R7501:7515 StlcProp <> appears_free_in ind
+R7519:7520 StlcProp <> t3 var
+R7517:7517 StlcProp <> x var
+R7827:7841 StlcProp <> appears_free_in ind
+def 7929:7934 STLCProp closed
+R7939:7940 Stlc STLC tm ind
+R7958:7959 Coq.Init.Logic <> :type_scope:'~'_x not
+R7960:7974 StlcProp STLCProp appears_free_in ind
+R7978:7978 StlcProp <> t var
+R7976:7976 StlcProp <> x var
+prf 8349:8363 STLCProp free_in_context
+R8439:8445 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R8448:8449 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R8457:8459 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8450:8454 StlcProp <> Gamma var
+R8456:8456 StlcProp <> x var
+R8460:8463 Coq.Init.Datatypes <> Some constr
+R8465:8466 StlcProp <> T' var
+R8421:8424 Stlc STLC ::x_'|-'_x_'\in'_x not
+R8426:8430 Stlc STLC ::x_'|-'_x_'\in'_x not
+R8416:8420 StlcProp <> Gamma var
+R8425:8425 StlcProp <> t var
+R8431:8431 StlcProp <> T var
+R8390:8404 StlcProp STLCProp appears_free_in ind
+R8408:8408 StlcProp <> t var
+R8406:8406 StlcProp <> x var
+R10296:10305 SfLib <> extend_neq thm
+R10296:10305 SfLib <> extend_neq thm
+prf 10552:10572 STLCProp typable_empty__closed
+R10618:10623 StlcProp STLCProp closed def
+R10625:10625 StlcProp <> t var
+R10598:10601 Stlc STLC ::x_'|-'_x_'\in'_x not
+R10603:10607 Stlc STLC ::x_'|-'_x_'\in'_x not
+R10593:10597 SfLib <> empty def
+R10602:10602 StlcProp <> t var
+R10608:10608 StlcProp <> T var
+prf 11044:11061 STLCProp context_invariance
+R11189:11192 Stlc STLC ::x_'|-'_x_'\in'_x not
+R11194:11198 Stlc STLC ::x_'|-'_x_'\in'_x not
+R11183:11188 StlcProp <> Gamma' var
+R11193:11193 StlcProp <> t var
+R11199:11199 StlcProp <> T var
+R11162:11164 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11155:11159 StlcProp <> Gamma var
+R11161:11161 StlcProp <> x var
+R11165:11170 StlcProp <> Gamma' var
+R11172:11172 StlcProp <> x var
+R11132:11146 StlcProp STLCProp appears_free_in ind
+R11150:11150 StlcProp <> t var
+R11148:11148 StlcProp <> x var
+R11100:11103 Stlc STLC ::x_'|-'_x_'\in'_x not
+R11105:11109 Stlc STLC ::x_'|-'_x_'\in'_x not
+R11095:11099 StlcProp <> Gamma var
+R11104:11104 StlcProp <> t var
+R11110:11110 StlcProp <> T var
+R13649:13653 Stlc STLC T_Var constr
+R13649:13653 Stlc STLC T_Var constr
+R13699:13703 Stlc STLC T_Abs constr
+R13699:13703 Stlc STLC T_Abs constr
+R13856:13861 SfLib <> extend def
+R13874:13882 SfLib <> eq_id_dec thm
+R13874:13882 SfLib <> eq_id_dec thm
+R13921:13925 Stlc STLC T_App constr
+R13921:13925 Stlc STLC T_App constr
+prf 14750:14778 STLCProp substitution_preserves_typing
+R14879:14882 Stlc STLC ::x_'|-'_x_'\in'_x not
+R14890:14894 Stlc STLC ::x_'|-'_x_'\in'_x not
+R14874:14878 StlcProp <> Gamma var
+R14883:14883 Stlc STLC ::'['_x_':='_x_']'_x not
+R14885:14886 Stlc STLC ::'['_x_':='_x_']'_x not
+R14888:14888 Stlc STLC ::'['_x_':='_x_']'_x not
+R14884:14884 StlcProp <> x var
+R14887:14887 StlcProp <> v var
+R14889:14889 StlcProp <> t var
+R14895:14895 StlcProp <> T var
+R14852:14855 Stlc STLC ::x_'|-'_x_'\in'_x not
+R14857:14861 Stlc STLC ::x_'|-'_x_'\in'_x not
+R14847:14851 SfLib <> empty def
+R14856:14856 StlcProp <> v var
+R14862:14862 StlcProp <> U var
+R14827:14830 Stlc STLC ::x_'|-'_x_'\in'_x not
+R14832:14836 Stlc STLC ::x_'|-'_x_'\in'_x not
+R14811:14816 SfLib <> extend def
+R14826:14826 StlcProp <> U var
+R14824:14824 StlcProp <> x var
+R14818:14822 StlcProp <> Gamma var
+R14831:14831 StlcProp <> t var
+R14837:14837 StlcProp <> T var
+R18687:18695 SfLib <> eq_id_dec thm
+R18687:18695 SfLib <> eq_id_dec thm
+R18748:18756 SfLib <> extend_eq thm
+R18748:18756 SfLib <> extend_eq thm
+R18827:18844 StlcProp STLCProp context_invariance thm
+R18827:18844 StlcProp STLCProp context_invariance thm
+R18883:18897 StlcProp STLCProp free_in_context thm
+R18905:18909 SfLib <> empty def
+R18883:18897 StlcProp STLCProp free_in_context thm
+R18905:18909 SfLib <> empty def
+R18986:18990 Stlc STLC T_Var constr
+R18986:18990 Stlc STLC T_Var constr
+R19001:19010 SfLib <> extend_neq thm
+R19001:19010 SfLib <> extend_neq thm
+R19064:19068 Stlc STLC T_Abs constr
+R19064:19068 Stlc STLC T_Abs constr
+R19085:19093 SfLib <> eq_id_dec thm
+R19085:19093 SfLib <> eq_id_dec thm
+R19131:19148 StlcProp STLCProp context_invariance thm
+R19131:19148 StlcProp STLCProp context_invariance thm
+R19194:19199 SfLib <> extend def
+R19218:19226 SfLib <> eq_id_dec thm
+R19218:19226 SfLib <> eq_id_dec thm
+R19278:19295 StlcProp STLCProp context_invariance thm
+R19278:19295 StlcProp STLCProp context_invariance thm
+R19328:19333 SfLib <> extend def
+R19352:19360 SfLib <> eq_id_dec thm
+R19352:19360 SfLib <> eq_id_dec thm
+R19391:19396 SfLib <> neq_id prfax
+R19391:19396 SfLib <> neq_id prfax
+prf 20200:20211 STLCProp preservation
+R20284:20287 Stlc STLC ::x_'|-'_x_'\in'_x not
+R20290:20294 Stlc STLC ::x_'|-'_x_'\in'_x not
+R20279:20283 SfLib <> empty def
+R20288:20289 StlcProp <> t' var
+R20295:20295 StlcProp <> T var
+R20262:20266 Stlc STLC ::x_'==>'_x not
+R20261:20261 StlcProp <> t var
+R20267:20268 StlcProp <> t' var
+R20240:20243 Stlc STLC ::x_'|-'_x_'\in'_x not
+R20245:20249 Stlc STLC ::x_'|-'_x_'\in'_x not
+R20235:20239 SfLib <> empty def
+R20244:20244 StlcProp <> t var
+R20250:20250 StlcProp <> T var
+R21651:21655 SfLib <> empty def
+R21657:21658 Stlc STLC ty ind
+R21651:21655 SfLib <> empty def
+R21657:21658 Stlc STLC ty ind
+R22019:22047 StlcProp STLCProp substitution_preserves_typing thm
+R22019:22047 StlcProp STLCProp substitution_preserves_typing thm
+def 22841:22845 STLCProp stuck
+R22850:22851 Stlc STLC tm ind
+R22886:22889 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R22867:22877 Smallstep <> normal_form def
+R22879:22882 Stlc STLC step ind
+R22885:22885 StlcProp <> t var
+R22890:22891 Coq.Init.Logic <> :type_scope:'~'_x not
+R22892:22896 Stlc STLC value ind
+R22898:22898 StlcProp <> t var
+prf 22912:22920 STLCProp soundness
+R22979:22980 Coq.Init.Logic <> :type_scope:'~'_x not
+R22989:22989 Coq.Init.Logic <> :type_scope:'~'_x not
+R22981:22985 StlcProp STLCProp stuck def
+R22987:22988 StlcProp <> t' var
+R22965:22970 Stlc STLC ::x_'==>*'_x not
+R22964:22964 StlcProp <> t var
+R22971:22972 StlcProp <> t' var
+R22946:22949 Stlc STLC ::x_'|-'_x_'\in'_x not
+R22951:22955 Stlc STLC ::x_'|-'_x_'\in'_x not
+R22941:22945 SfLib <> empty def
+R22950:22950 StlcProp <> t var
+R22956:22956 StlcProp <> T var
+R23040:23044 StlcProp STLCProp stuck def
+R23079:23089 Smallstep <> normal_form def
+R27940:27947 StlcProp <> <> mod
+mod 28351:28359 <> STLCArith
+ind 28468:28469 STLCArith ty
+constr 28485:28490 STLCArith TArrow
+constr 28513:28516 STLCArith TNat
+R28506:28507 StlcProp <> ty ind
+R28500:28501 StlcProp <> ty ind
+R28494:28495 StlcProp <> ty ind
+R28522:28523 StlcProp <> ty ind
+ind 28663:28664 STLCArith tm
+constr 28680:28683 STLCArith tvar
+constr 28700:28703 STLCArith tapp
+constr 28726:28729 STLCArith tabs
+constr 28758:28761 STLCArith tnat
+constr 28780:28784 STLCArith tsucc
+constr 28801:28805 STLCArith tpred
+constr 28822:28826 STLCArith tmult
+constr 28849:28852 STLCArith tif0
+R28693:28694 StlcProp <> tm ind
+R28687:28688 SfLib <> id ind
+R28719:28720 StlcProp <> tm ind
+R28713:28714 StlcProp <> tm ind
+R28707:28708 StlcProp <> tm ind
+R28751:28752 StlcProp <> tm ind
+R28745:28746 StlcProp <> tm ind
+R28739:28740 StlcProp STLCArith ty ind
+R28733:28734 SfLib <> id ind
+R28773:28774 StlcProp <> tm ind
+R28766:28768 Coq.Init.Datatypes <> nat ind
+R28794:28795 StlcProp <> tm ind
+R28788:28789 StlcProp <> tm ind
+R28815:28816 StlcProp <> tm ind
+R28809:28810 StlcProp <> tm ind
+R28842:28843 StlcProp <> tm ind
+R28836:28837 StlcProp <> tm ind
+R28830:28831 StlcProp <> tm ind
+R28875:28876 StlcProp <> tm ind
+R28869:28870 StlcProp <> tm ind
+R28863:28864 StlcProp <> tm ind
+R28857:28858 StlcProp <> tm ind
+R29818:29826 StlcProp <> <> mod
