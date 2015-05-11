@@ -1401,8 +1401,28 @@ Fixpoint real_fact (n:nat) : nat :=
     program [factorial_dec] that implements the factorial function and 
     prove it correct as [factorial_dec_correct]. *)
 
-(* FILL IN HERE *)
-(** [] *)
+Example factorial_dec (m:nat) : dcom := (
+  {{ fun st => st X = m }} ->>
+  {{ fun st => real_fact (m - (st X)) = 1}}  
+  Y ::= ANum 1 
+  {{ fun st => st Y = real_fact (m - (st X)) }} ;;
+  WHILE BNot (BEq (AId X) (ANum 0)) DO
+    {{ fun st => st Y = real_fact(m - (st X)) /\ st X <> 0 }} ->>
+    {{ fun st => (st Y) * (st X) = real_fact(m - ((st X) - 1)) }}
+    Y ::= AMult (AId Y) (AId X) 
+    {{ fun st => st Y = real_fact(m - ((st X) - 1)) }} ;;
+    X ::= AMinus (AId X) (ANum 1)
+    {{ fun st => st Y = real_fact (m - (st X)) }}
+  END
+  {{ fun st => st Y = real_fact (m - (st X)) /\ st X = 0 }} ->>
+  {{ fun st => st Y = real_fact m }}
+) % dcom.
+
+Theorem factorial_dec_correct : forall m,
+  dec_correct (factorial_dec m).
+Proof.
+intros.
+verify.
 
 
 (** $Date: 2014-12-31 11:17:56 -0500 (Wed, 31 Dec 2014) $ *)
