@@ -1400,29 +1400,67 @@ Fixpoint real_fact (n:nat) : nat :=
 (** Following the pattern of [subtract_slowly_dec], write a decorated
     program [factorial_dec] that implements the factorial function and 
     prove it correct as [factorial_dec_correct]. *)
+ 
+Theorem fac_factor : forall x y, x <> 0 -> y * real_fact x = y * x * real_fact (x-1).
+Proof.
+intros.
+destruct x.
+assert False.
+apply H.
+reflexivity.
+compute.
+inversion H0.
+simpl.
+rewrite <- minus_n_O.
+assert (S x = x+1).
+omega.
+rewrite -> H0.
+rewrite -> mult_plus_distr_l.
+rewrite -> mult_plus_distr_l.
+rewrite -> mult_1_r.
+rewrite -> mult_plus_distr_r.
+rewrite -> plus_comm.
+rewrite -> mult_assoc.
+reflexivity.
+Qed.
 
 Example factorial_dec (m:nat) : dcom := (
   {{ fun st => st X = m }} ->>
-  {{ fun st => real_fact (m - (st X)) = 1}}  
+  {{ fun st => 1 * (real_fact (st X)) = real_fact m }}  
   Y ::= ANum 1 
-  {{ fun st => st Y = real_fact (m - (st X)) }} ;;
+  {{ fun st => st Y * (real_fact (st X)) = real_fact m }} ;;
   WHILE BNot (BEq (AId X) (ANum 0)) DO
-    {{ fun st => st Y = real_fact(m - (st X)) /\ st X <> 0 }} ->>
-    {{ fun st => (st Y) * (st X) = real_fact(m - ((st X) - 1)) }}
+    {{ fun st => st Y * (real_fact (st X)) = real_fact m /\ st X <> 0 }} ->>
+    {{ fun st => (st Y) * (st X) * (real_fact ((st X)-1)) = real_fact m }}
     Y ::= AMult (AId Y) (AId X) 
-    {{ fun st => st Y = real_fact(m - ((st X) - 1)) }} ;;
+    {{ fun st => st Y * (real_fact ((st X)-1)) = real_fact m }} ;;
     X ::= AMinus (AId X) (ANum 1)
-    {{ fun st => st Y = real_fact (m - (st X)) }}
+    {{ fun st => st Y * (real_fact (st X)) = real_fact m }}
   END
-  {{ fun st => st Y = real_fact (m - (st X)) /\ st X = 0 }} ->>
+  {{ fun st => st Y * (real_fact (st X)) = real_fact m /\ st X = 0 }} ->>
   {{ fun st => st Y = real_fact m }}
 ) % dcom.
+
 
 Theorem factorial_dec_correct : forall m,
   dec_correct (factorial_dec m).
 Proof.
 intros.
 verify.
+rewrite <- H.
+symmetry.
+SearchAbout mult.
+apply fac_factor.
+apply H0.
+rewrite <- H.
+assert (real_fact 0 = 1).
+compute.
+trivial.
+rewrite -> H0.
+rewrite -> mult_1_r.
+reflexivity.
+Qed. 
+
 
 
 (** $Date: 2014-12-31 11:17:56 -0500 (Wed, 31 Dec 2014) $ *)

@@ -46,7 +46,47 @@ Definition mplus (S A : Type) (st0: stateTransEx S A) (st1: stateTransEx S A) : 
     end.
 
 Definition Qstate :=
-  (list nat,list nat,list nat).
+  (list nat * list nat * list nat) %type.
 
 Definition GetCols :=
-  
+  fun q:Qstate => 
+    match q with
+    | (c,sw,se) => c
+    end.
+
+Definition GetSWDiags :=
+  fun q:Qstate => 
+    match q with
+    | (c,sw,se) => sw
+    end.
+
+Definition GetSEDiags :=
+  fun q:Qstate => 
+    match q with
+    | (c,sw,se) => se
+    end.
+
+Definition PutCols (c: list nat) :=
+  fun q:Qstate => 
+    match q with 
+    | (old_c,sw,se) => (c,sw,se) %type
+    end.
+
+Definition PutSWDiags (sw: list nat) :=
+  fun q:Qstate => 
+    match q with 
+    | (c,old_sw,se) => (c,sw,se) %type
+    end.
+
+Definition PutSEDiags (se: list nat) :=
+  fun q:Qstate => 
+    match q with 
+    | (c,sw,old_se) => (c,sw,se) %type
+    end.
+
+Definition tryPutCol c :=
+  cols = getCols
+  match c with
+  | cols => None
+  | _ => PutCols c
+  end.
