@@ -95,15 +95,46 @@ Definition place (r c : nat) (q:option Qstate) : option Qstate :=
     q2
   end.
 
-Fixpoint row_iter (r c : nat) := 
-  if beq_nat c 0 then 
-  let q0 := place r c q in
+Definition tryEach (r:nat) (q:option Qstate) : option Qstate :=
+  match place r 0 q with
+  | Some q0 => Some q0
+  | None =>
+  match place r 1 q with
+  | Some q1 => Some q1
+  | None => 
+  match place r 2 q with
+  | Some q2 => Some q2
+  | None => 
+  match place r 3 q with
+  | Some q3 => Some q3
+  | None =>
+  match place r 4 q with
+  | Some q4 => Some q4
+  | None =>
+  match place r 5 q with
+  | Some q5 => Some q5
+  | None =>
+  match place r 6 q with
+  | Some q6 => Some q6
+  | None =>
+  match place r 7 q with
+  | Some q7 => Some q7
+  | None => None
+  end
+  end
+  end
+  end
+  end
+  end
+  end
+  end.
 
-Fixpoint queens (r c_num : nat) (q:Qstate) (ans:list nat) : list nat :=
-  if beq_nat r 0 then GetCols q else 
-    let alsdfj := row_iter r c_num q in 
-          queens (r-1) c_num . 
+Fixpoint queens (r:nat) (q:option Qstate) : option Qstate :=
+  match r with
+  | O => q
+  | S n => 
+    let q0 := tryEach n q in
+    queens n q0
+  end.
 
-
-
-
+Definition q:option Qstate := Some (qstate [] [] []).
