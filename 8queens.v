@@ -103,8 +103,8 @@ Fixpoint tryEach (l:list nat) (q:option Qstate) (f: nat -> option Qstate ) : opt
     | [] => None
     | h::t => 
       match f h with
-      | None => None
-      | _ => tryEach t q f 
+      | None => tryEach t q f
+      | Some q0 => Some q0 
       end
     end
   end.
@@ -113,13 +113,14 @@ Fixpoint queens (r:nat) (cols:list nat) (q:option Qstate) : option Qstate :=
   match r with
   | O => q
   | S n => tryEach cols q (fun c => match place n c q with 
-                                 | None => None 
+                                 | None => None
                                  | Some q0 => queens n cols (Some q0)
                                  end)
   end.
 
 
 Definition q:option Qstate := Some (qstate [] [] []).
-Compute queens 1 ([0]) q.
 
-Compute queens 8 ([0;1;2;3;4;5;6;7;8]) q.
+Definition solution := queens 8 ([0;1;2;3;4;5;6;7;8]) q.
+
+Compute GetCols solution.
